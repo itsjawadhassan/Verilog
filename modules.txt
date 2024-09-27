@@ -1,0 +1,66 @@
+*assign module*
+module myand(in1,in2,o);
+input in1,in2;
+output o;
+assign o=in1&in2;
+endmodule
+
+*AND MODULE*
+module my_and(in1,in2,o);
+input in1,in2;
+output o;
+and aa(o,in1,in2);
+endmodule
+
+*And gate test bench*
+module stim_and;
+reg in1,in2;
+wire o;
+my_and test(in1,in2,o);
+initial begin
+in1=0;
+in2=0;
+#20
+in1=0;
+in2=1;
+#20
+in1=1;
+in2=0;
+#20
+in1=1;
+in2=1;
+end
+endmodule
+
+*Mux module*
+module my_mux_gate(in1,in2,sel,out);
+input in1,in2,sel;
+output out;
+wire out1,out2,out3;
+not aa(out3,sel);
+and bb(out1,in1,out3);
+and cc(out2,in2,sel);
+or dd(out,out1,out2);
+endmodule  
+
+*Mux test bench*
+module stim_mux_gate;
+reg input1,input2,sel;
+wire out;
+my_mux_gate test(input1,input2,sel,out);
+initial
+begin
+input1=0;
+input2=1;
+sel=1;
+#20
+input1=1;
+input2=0;
+sel=0;
+#20
+input1=1;
+input2=0;
+sel=1;
+end
+endmodule
+

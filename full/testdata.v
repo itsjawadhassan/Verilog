@@ -1,0 +1,40 @@
+module testdata;
+reg in1,in2,in3;
+wire s,c;
+myflow a(in1,in2,in3,s,c);
+initial begin
+in1=0;
+in2=0;
+in3=0;
+#20;
+in1=0;
+in2=0;
+in3=1;
+#20;
+in1=0;
+in2=1;
+in3=0;
+#20;
+in1=0;
+in2=1;
+in3=1;
+#20;
+in1=1;
+in2=0;
+in3=0;
+#20;
+in1=1;
+in2=0;
+in3=1;
+#20;
+in1=1;
+in2=1;
+in3=0;
+#20;
+in1=1;
+in2=1;
+in3=1;
+#20;
+$displayfinish;
+end
+endmodule

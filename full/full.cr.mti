@@ -1,0 +1,36 @@
+{C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 10/full/gate mod.v} {1 {vlog -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 10/full/gate mod.v}
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module mygate
+
+Top level modules:
+	mygate
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 10/full/gate test.v} {1 {vlog -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 10/full/gate test.v}
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module testgate
+
+Top level modules:
+	testgate
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 10/full/moddataflow.v} {1 {vlog -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 10/full/moddataflow.v}
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module myflow
+
+Top level modules:
+	myflow
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 10/full/testdata.v} {1 {vlog -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 10/full/testdata.v}
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module testdata
+
+Top level modules:
+	testdata
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 10/full/bitwise.v} {1 {vlog -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 10/full/bitwise.v}
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module logical_operators
+
+Top level modules:
+	logical_operators
+
+} {} {}}

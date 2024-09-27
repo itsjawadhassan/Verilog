@@ -1,0 +1,50 @@
+{C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/testmyha.v} {1 {vlog -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/testmyha.v}
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module testmyha
+
+Top level modules:
+	testmyha
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/myha.v} {1 {vlog -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/myha.v}
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module myha
+
+Top level modules:
+	myha
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/bitwisetest.v} {1 {vlog -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/bitwisetest.v}
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module bitwisetest
+
+Top level modules:
+	bitwisetest
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/circuit.v} {1 {vlog -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/circuit.v}
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module mycircuit
+
+Top level modules:
+	mycircuit
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/circuittest.v} {1 {vlog -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/circuittest.v}
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module testcircuit
+
+Top level modules:
+	testcircuit
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/testoperators.v} {1 {vlog -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/testoperators.v}
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module operatortest
+
+Top level modules:
+	operatortest
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/logical.v} {1 {vlog -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/lab 8/VERILOG OPERATIONS/logical.v}
+Model Technology ModelSim SE vlog 5.7g Compiler 2003.10 Oct 10 2003
+-- Compiling module testlogical
+
+Top level modules:
+	testlogical
+
+} {} {}}

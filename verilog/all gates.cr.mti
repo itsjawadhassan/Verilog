@@ -1,0 +1,59 @@
+{C:/Users/Jawad Hassan/Desktop/sem2/dld/LAB 6/verilog/testand.v} {1 {vlog -stats=none -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/LAB 6/verilog/testand.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module testand
+
+Top level modules:
+	testand
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/LAB 6/verilog/andmod.v} {1 {vlog -stats=none -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/LAB 6/verilog/andmod.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module myand
+
+Top level modules:
+	myand
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/LAB 6/verilog/all mods.v} {1 {vlog -stats=none -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/LAB 6/verilog/all mods.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module myor
+-- Compiling module mynot
+-- Compiling module mynand
+-- Compiling module mynor
+-- Compiling module myxor
+-- Compiling module myxnor
+
+Top level modules:
+	myor
+	mynot
+	mynand
+	mynor
+	myxor
+	myxnor
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/LAB 6/verilog/all test.v} {1 {vlog -stats=none -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/LAB 6/verilog/all test.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module testnand
+-- Compiling module testnor
+-- Compiling module testxor
+-- Compiling module testxnor
+
+Top level modules:
+	testnand
+	testnor
+	testxor
+	testxnor
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/LAB 6/verilog/testnot.v} {1 {vlog -stats=none -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/LAB 6/verilog/testnot.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module testnot
+
+Top level modules:
+	testnot
+
+} {} {}} {C:/Users/Jawad Hassan/Desktop/sem2/dld/LAB 6/verilog/testor.v} {1 {vlog -stats=none -work work {C:/Users/Jawad Hassan/Desktop/sem2/dld/LAB 6/verilog/testor.v}
+Model Technology ModelSim PE Student Edition vlog 10.3a Compiler 2014.04 Apr 14 2014
+-- Compiling module testor
+
+Top level modules:
+	testor
+
+} {} {}}

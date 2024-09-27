@@ -1,0 +1,75 @@
+HA MODULE:
+module my_HA_assign(x,y,s,c);
+input x,y;
+output s,c;
+assign s=x^y;
+assign c=x&y;
+endmodule
+
+TEST BENCH HA:
+module stim_HA_assign;
+reg x,y;
+wire s,c;
+my_HA_assign aa(x,y,s,c);
+initial
+begin
+x=0;
+y=0;
+#20 x=0;
+y=1;
+#20 x=1;
+y=0;
+#20 x=1;
+y=1;
+end
+endmodule
+
+ARITHMETIC OPERATORS TEST:
+module arithmetic_operators; 
+   initial begin
+     $display (" 5  +  10 = %d", 5  + 10);
+  end
+  endmodule
+
+BITWISE TEST TRUTHTABLE:
+module bitwise_operators;
+initial begin
+  // Bit Wise Negation
+  $display (" ~4'b0001           = %b", (~4'b0001));
+  $display (" ~4'bx001           = %b", (~4'bx001));
+  
+  // Bit Wise AND
+  $display (" 4'b0001 &  4'b1001 = %b", (4'b0001 &  4'b1001));
+  $display (" 4'b1001 &  4'bx001 = %b", (4'b1001 &  4'bx001));
+  
+  // Bit Wise OR
+  $display (" 4'b0001 |  4'b1001 = %b", (4'b0001 |  4'b1001));
+  $display (" 4'b0001 |  4'bx001 = %b", (4'b0001 |  4'bx001));
+  // Bit Wise XOR
+  $display (" 4'b0001 ^  4'b1001 = %b", (4'b0001 ^  4'b1001));
+  $display (" 4'b0001 ^  4'bx001 = %b", (4'b0001 ^  4'bx001));
+  
+  // Bit Wise XNOR
+  $display (" 4'b0001 ~^ 4'b1001 = %b", (4'b0001 ~^ 4'b1001));
+  $display (" 4'b0001 ~^ 4'bx001 = %b", (4'b0001 ~^ 4'bx001));
+end
+endmodule
+
+module logical_operators;
+
+initial begin
+  // Logical AND
+  $display ("1'b1 && 1'b1 = %b", (1'b1 && 1'b1));
+  $display ("1'b1 && 1'b0 = %b", (1'b1 && 1'b0));
+  $display ("1'b1 && 1'bx = %b", (1'b1 && 1'bx));
+  // Logical OR
+  $display ("1'b1 || 1'b0 = %b", (1'b1 || 1'b0));
+  $display ("1'b0 || 1'b0 = %b", (1'b0 || 1'b0));
+  $display ("1'b0 || 1'bx = %b", (1'b0 || 1'bx));
+  // Logical Negation
+  $display ("! 1'b1       = %b", (!  1'b1));
+  $display ("! 1'b0       = %b", (!  1'b0));
+end
+
+endmodule
+
